@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: inter;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.mainHeading {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.tap {
+    display: flex;
+    justify-content: center;
+    min-width: 60%;
+}
+
+.tapButton {
+    width: 33%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.tapButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center horizontally */
+    text-align: center;
+
+}
+
+.kids {
+    margin: 10px;
+}
+
+.tapButton:focus svg {
+    fill: white;
+}
+
+.tapButton:focus {
+    background: rgb(19, 19, 19);
+    color: white;
+}
+
+.product-card {
+    display: flex;
+    width: 250px;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-to-cart {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+p {
+    width: 100px;
+}
+
+.image {
+    height: 300px;
+    width: 250px;
+}
+
+.title {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    white-space: nowrap;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.price {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.compare {
+    color: #8a7f7a;
+    font-size: 18px;
+    text-decoration: line-through;
+    width: 80px;
+}
+
+.discount {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    width: 80px;
+}
+
+@media (max-width: 767px) {
+    .mainHeading {
+        font-size: 15px;
+    }
+
+    .product-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.men {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60%;
+}
+
+.women {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60%;
+}
