@@ -1,6 +1,12 @@
 
 # Product-listing-page
 
+![Screenshot 2024-01-12 111231](https://github.com/srikanthmiriyala017/Pproduct-listing-page/assets/123526232/518ac978-90a0-4233-8664-35c8b1767532)
+![Screenshot 2024-01-12 112122](https://github.com/srikanthmiriyala017/Pproduct-listing-page/assets/123526232/a63251d4-2272-43da-8514-871bf5590634)
+![Screenshot 2024-01-12 112148](https://github.com/srikanthmiriyala017/Pproduct-listing-page/assets/123526232/5695246f-c825-46fc-8267-420ec229119a)
+
+
+
 Submission Instructions:
 You can pick and submit any one of the below assignments.
 Don't use any libraries or frameworks like React, Tailwind, Bootstrap, or jQuery.
